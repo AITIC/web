@@ -11,8 +11,8 @@
     "version": "14.0.1.0.0",
     "license": "LGPL-3",
     "author": "Modoolar, " "CorporateHub, " "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/web/",
+    "website": "https://github.com/OCA/web",
     "depends": ["web"],
-    "data": ["views/web_ir_actions_act_multi.xml"],
+    "data": ["security/ir.model.access.csv", "views/web_ir_actions_act_multi.xml"],
     "installable": True,
 }
